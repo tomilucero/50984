@@ -1,1 +1,4 @@
 (ab|c)*[0-9]{1,3}
+por que falla:
+Dentro de la clase [0-9] estás usando dígitos, pero tu gramática solo permite CHAR (no NUMBER) dentro de [...].
+ Así que el parser no va a reconocer el 0 ni el 9 como CHAR y va a lanzar error.
