@@ -1,0 +1,11 @@
+Se proporciona una gramática en notación EBNF que describe un lenguaje específico.
+Utilizando ANTLR4 con JavaScript, implemente un analizador que procese un archivo de entrada (input.txt) con código fuente escrito en dicho lenguaje.
+regex     = term [ "|" regex ]
+term      = { factor }+
+factor    = base [ quantifier ]
+base      = char | group | class
+group     = "(" regex ")"
+class     = "[" "^"? { range | char }+ "]"
+range     = char "-" char
+quantifier = "*" | "+" | "?" | "{" number [ "," [ number ] ] "}"
+char      = ? cualquier carácter excepto metacaracteres ?
