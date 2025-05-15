@@ -17,6 +17,12 @@ de ahi tengo que apretar npm start en el simbolo del sistema obviamente en la ca
 se va a ejecutar de acuerdo a lo que tenga guardado en la entrada en el visual studio code en el input.txt y deberia mostar algo asi 
 ![image](https://github.com/user-attachments/assets/ed46b2b6-d902-4e76-aab9-db9282e4168b)
 asi con todas las entradas que quiera . las guardo a todas en el input.txt y de ahi vengo al simbolo del sistema para ver todo apretando nuevamente npm start.
-aclaracion
-ami me aparece como que cada vez que le doy una entrada bien o mal me detecta todo bien el el visual studio code, si la entrada es correcta me la detecta bien sin errores y me genera el arbol de derivacion sin errores , si le doy una entrada invalida me tira de que hay error de sintaxis y me genera el arbol con los errores en rojo, pero en el simbolo del sistema no me detecta los errores me deberia decir algo como error de sintaxis
-me toma todas las entradas como validas y me genera el arbol y las tabla . pero en visual me detecta tod bien, pienso que puede ser error en mi pc .
+otra forma de ver la tabla de tokens y de lexemas tengo que modificar en el archivo index.js para que no encuentre el input.txt entonces me va a pedir que ingrese yo la cadena ya sea en el la terminal del sistema o en el cmd de la compu
+![image](https://github.com/user-attachments/assets/46c05300-8b00-4d3d-9d49-be21237c9b57)
+![image](https://github.com/user-attachments/assets/5b5bd2aa-3d98-46cb-8cd5-2a740865233c)
+en este caso no va encontrar input.txt y me va a pedir que yo ingrese una cadena
+![image](https://github.com/user-attachments/assets/9b45f0df-a45d-4877-89b8-90625fb01f92)
+en este caso va a ir a buscar en el input.txt por lo tanto tengo que ingresar mi cadena yo en el input.txt
+![image](https://github.com/user-attachments/assets/32366266-d161-49bb-93a5-673de5dc4077)
+
+
